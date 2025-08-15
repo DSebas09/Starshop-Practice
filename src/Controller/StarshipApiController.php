@@ -10,7 +10,7 @@ use Symfony\Component\Routing\Attribute\Route;
 class StarshipApiController extends AbstractController
 {
     #[Route('/api/starships')]
-    public function getConllections(): Response
+    public function getCollections(): Response
     {
         $starships = [
             new Starship(
