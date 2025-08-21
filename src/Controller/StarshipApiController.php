@@ -2,7 +2,7 @@
 
 namespace App\Controller;
 
-use App\model\Starship;
+use App\Model\Starship;
 use Psr\Log\LoggerInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
